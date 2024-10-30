@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
     bioSection.appendChild(button);
 
     button.addEventListener("click", function() {
-        funFact.style.display = funFact.style.display === "none" ? "block" : "none";
+        if (funFact.style.display === "none") {
+            funFact.style.display = "block";
+            button.textContent = "Close Fun Fact"; // Change text to Close
+        } else {
+            funFact.style.display = "none";
+            button.textContent = "Show Fun Fact"; // Change text back to Show
+        }
     });
 });
