@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const bioSection = document.getElementById("bio");
     const funFact = document.createElement("p");
-    funFact.textContent = "Fun Fact: I love coding challenges!";
+    funFact.textContent = " I love coding challenges!";
     funFact.style.display = "none"; // Hide initially
     bioSection.appendChild(funFact);
 
