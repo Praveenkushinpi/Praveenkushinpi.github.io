@@ -20,4 +20,25 @@ body {
     height: auto;
     border-radius: 50%; /* Makes the image circular */
     margin-top: 10px;
+#funFactButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#funFactButton:hover {
+    background-color: #45a049; /* Darker green */
+    transform: scale(1.05);
+}
+
+#funFact {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
 }
