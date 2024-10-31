@@ -1,7 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     const bioSection = document.getElementById("bio");
     const funFact = document.createElement("p");
-    funFact.textContent = " I love coding challenges!";
+    funFact.textContent = 
+" I love solving coding puzzles!",
+ "I'm passionate about AI and machine learning ",
+"I enjoy learning about new technologies",
+ "I play badminton in my free time ",
+"I'm working on projects related to esports!";
     funFact.style.display = "none"; // Hide initially
     bioSection.appendChild(funFact);
 
@@ -16,14 +21,6 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             funFact.style.display = "none";
             button.textContent = "Show Fun Fact"; // Change text back to Show
- 
-
-       
-    "I love solving coding puzzles!",
-    "I'm passionate about AI and machine learning.",
-    "I enjoy learning about new technologies.",
-    "I play badminton in my free time.",
-    "I'm working on projects related to esports!"
 ];
 });      
  }
