@@ -41,17 +41,6 @@ const funFacts = [
     "I play badminton in my free time.",
     "I'm working on projects related to esports!"
 ];
-
-// Function to display a random fun fact
-function showFunFact() {
-    const randomIndex = Math.floor(Math.random() * funFacts.length);
-    const funFactElement = document.getElementById('funFact');
-    funFactElement.textContent = funFacts[randomIndex];
-}
-
-// Event listener for the button
-document.getElementById('funFactButton').addEventListener('click', showFunFact);
-    }
 });      
  }
     });
