@@ -16,25 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             funFact.style.display = "none";
             button.textContent = "Show Fun Fact"; // Change text back to Show
- document.getElementById("funFactButton").addEventListener("click", function() {
-    const funFactDiv = document.getElementById("funFact");
-    if (funFactDiv.style.display === "none") {
-        funFactDiv.style.display = "block";
-        funFactDiv.textContent = "Did you know? Honey never spoils!";
-        // Optional: Add a fade-in effect
-        funFactDiv.style.opacity = 0;
-        let opacity = 0;
-        const interval = setInterval(() => {
-            if (opacity >= 1) {
-                clearInterval(interval);
-            }
-            opacity += 0.1;
-            funFactDiv.style.opacity = opacity;
-        }, 50);
-    } else {
-        funFactDiv.style.display = "none";
-// Array of fun facts
-const funFacts = [
+ 
+
+       
     "I love solving coding puzzles!",
     "I'm passionate about AI and machine learning.",
     "I enjoy learning about new technologies.",
